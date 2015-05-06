@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="bindingex.FormController">
+    <children>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="600.0" spacing="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <TextField fx:id="plusField1" prefWidth="120.0"/>
+                <Label fx:id="plus1" minHeight="25.0">+</Label>
+                <TextField fx:id="plusField2" prefWidth="120.0"/>
+                <Label fx:id="equals" minHeight="25.0">=</Label>
+            </children>
+            <children>
+                <Label fx:id="result" minHeight="25.0" prefWidth="150.0">0</Label>
+            </children>
+        </HBox>
+    </children>
+    <stylesheets>
+        <URL value="@formstyle.css" />
+    </stylesheets>
+</AnchorPane>
