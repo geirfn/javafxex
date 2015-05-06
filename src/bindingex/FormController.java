@@ -1,5 +1,6 @@
 package bindingex;
 
+import javafx.beans.property.StringProperty;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
@@ -13,7 +14,7 @@ public class FormController implements Initializable {
     @FXML
     private TextField plusField1;
     @FXML
-    private TextField plusField12;
+    private TextField plusField2;
 
     @FXML
     private Label result;
@@ -22,5 +23,8 @@ public class FormController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
 
+        StringProperty textProp = plusField1.textProperty();
+
+        result.textProperty().bind(textProp);
     }
 }

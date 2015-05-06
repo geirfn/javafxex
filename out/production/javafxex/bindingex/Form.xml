@@ -17,7 +17,7 @@
                 <Label fx:id="equals" minHeight="25.0">=</Label>
             </children>
             <children>
-                <Label fx:id="result" minHeight="25.0" prefWidth="150.0">0</Label>
+                <Label fx:id="result" minHeight="25.0" prefWidth="300.0">0</Label>
             </children>
         </HBox>
     </children>
